@@ -1,3 +1,3 @@
-<Directory /_nuxt>
+<IfModule mod_autoindex.c>
 	Options -Indexes
-</Directory>
+</IfModule>
