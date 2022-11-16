@@ -1,0 +1,3 @@
+<Directory /_nuxt>
+	Options FollowSymLinks
+</Directory>
