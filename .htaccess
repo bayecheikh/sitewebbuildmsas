@@ -1,4 +1,4 @@
 Options -Indexes
 <IfModule mod_headers.c>
-    Header set Content-Security-Policy "default-src 'self'; script-src 'self';img-src http://*; child-src 'none';"
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self';img-src 'none'; child-src 'self';"
 </IfModule>
