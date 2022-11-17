@@ -2,3 +2,6 @@ Options -Indexes
 <IfModule mod_headers.c>
     Header set Content-Security-Policy "default-src 'self'; script-src 'self';img-src https: http: data:; child-src 'self';"
 </IfModule>
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
