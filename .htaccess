@@ -1,7 +1,4 @@
 Options -Indexes
 <IfModule mod_headers.c>
-    Header set Content-Security-Policy "default-src 'self'; script-src 'self';img-src 'https://siteweb-msas.ip3dev.com' 'http://siteweb-msas.ip3dev.com'; child-src 'self';"
-</IfModule>
-<IfModule mod_headers.c>
-    Header set X-Content-Type-Options "nosniff"
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self';img-src 'none'; child-src 'self';"
 </IfModule>
