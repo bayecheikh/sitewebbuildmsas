@@ -5,7 +5,7 @@ Options -Indexes
 	Header set X-Frame-Options "SAMEORIGIN"
 	Header set X-Content-Type-Options "nosniff"
 	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
-	Header set Content-Security-Policy "default-src 'self'; frame-ancestors 'self' data: https: http:; script-src 'self' data: https: http:; script-src-elem 'self' data: https: http:; script-src-attr 'self' data: https: http:; style-src 'self' data: https: http:; style-src-elem 'self' data: https: http:; style-src-attr 'self' data: https: http:; img-src 'self' data:image/svg+xml http: https:; connect-src 'self'; frame-src 'self' data: https: http:; font-src 'self' data: https: http:; media-src 'self' data: https: http:; object-src 'self' data: https: http:; manifest-src 'self' data: https: http:; worker-src 'self' data: https: http:; prefetch-src 'self' ; form-action 'self';"
+	Header set Content-Security-Policy "default-src 'self'; frame-ancestors 'self' data: https: http:; script-src 'self' 'report-sample'; script-src-elem 'self' data: https: http:; script-src-attr 'self' data: https: http:; style-src 'self' 'report-sample'; style-src-elem 'self' data: https: http:; style-src-attr 'self' data: https: http:; img-src 'self' data:; connect-src 'self' https://msas.ip3dev.com; frame-src 'self' data: https: http:; font-src 'self' https://fonts.gstatic.com; media-src 'self' data: https: http:; object-src 'none'; manifest-src 'self' data: https: http:; worker-src 'self' data: https: http:; prefetch-src 'self' ; form-action 'self';"
 	Header set Referrer-Policy "same-origin"
 	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
 </IfModule>
