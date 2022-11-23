@@ -5,7 +5,7 @@ Options -Indexes
 	Header set X-Frame-Options "SAMEORIGIN"
 	Header set X-Content-Type-Options "nosniff"
 	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
-	Header set Content-Security-Policy "default-src 'self'; frame-ancestors 'self'; manifest-src 'self'; font-src http: https: data:; img-src 'self' http: https: data:; script-src 'self' http: https:; style-src 'self' http: https:;"
+	Header set Content-Security-Policy "default-src 'self'; frame-ancestors 'self'; manifest-src 'self'; script-src 'self; script-src-elem 'self; script-src-attr 'self; style-src 'self; style-src-elem 'self; style-src-attr 'self; img-src 'self; connect-src 'self; frame-src 'self; font-src 'self; media-src 'self; object-src 'self; manifest-src 'self; worker-src 'self; prefetch-src 'self; form-action 'self;'"
 	Header set Referrer-Policy "same-origin"
 	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
 </IfModule>
