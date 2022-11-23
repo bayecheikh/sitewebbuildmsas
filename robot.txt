@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /
+Disallow: /img/
+Disallow: /_nuxt/
 
 # Comment here
 Sitemap: https://robots.nuxtjs.org/sitemap.xml
