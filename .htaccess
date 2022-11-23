@@ -5,7 +5,7 @@ Options -Indexes
 	Header set X-Frame-Options "SAMEORIGIN"
 	Header set X-Content-Type-Options "nosniff"
 	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
-	Header set Content-Security-Policy "default-src 'none'; frame-ancestors 'self' data: https: http:; script-src 'self' https: http:; script-src-elem 'self' data: https: http:; script-src-attr 'self' data: https: http:; style-src 'self'; style-src-elem 'self' data: https: http:; style-src-attr 'self' data: https: http:; img-src 'self' data: https: http:; connect-src 'self' data: https: http:; frame-src 'self' data: https: http:; font-src 'self' data: https: http:; media-src 'self' data: https: http:; object-src 'self' data: https: http:; manifest-src 'self' data: https: http:; worker-src 'self' data: https: http:; prefetch-src 'self' data: https: http: ; form-action 'self';"
+	Header set Content-Security-Policy "default-src 'none'; frame-ancestors 'self' data: https: http:; script-src 'self' https: http:; script-src-elem 'self' data: https: http:; script-src-attr 'self' data: https: http:; style-src 'none'; style-src-elem 'self' data: https: http:; style-src-attr 'self' data: https: http:; img-src 'self' data: https: http:; connect-src 'self' data: https: http:; frame-src 'self' data: https: http:; font-src 'self' data: https: http:; media-src 'self' data: https: http:; object-src 'self' data: https: http:; manifest-src 'self' data: https: http:; worker-src 'self' data: https: http:; prefetch-src 'self' data: https: http: ; form-action 'self';"
 	Header set Referrer-Policy "same-origin"
 	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
 </IfModule>
