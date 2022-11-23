@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /
+Disallow: /.git/
 
 # Comment here
 Sitemap: https://robots.nuxtjs.org/sitemap.xml
